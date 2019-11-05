@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.media-gallery {
+    padding: 2rem 1rem 1rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: lightgray;
+}
+
+.media-gallery-thumbnails {
+    display: flex;
+    justify-content: flex-start;
+    overflow: auto;
+    overflow-y: hidden;
+}
+
+.media-gallery-thumbnails__img {
+    width: 60px;
+    height: 60px;
+    border: lightgray 2px solid;
+}
+
+.media-gallery-main__img {
+    width: 100%;
+    border: lightgray 2px solid;
+}

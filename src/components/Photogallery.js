@@ -17,7 +17,7 @@ componentDidMount() {
   var picturefeed = this;
   this.serverRequest =
       axios
-          .get('https://www.flickr.com/services/rest/?method=flickr.people.getPublicPhotos&api_key=08a1a1fb2786ca00e3801c9048e262e9&user_id=183431130%40N03&format=json&nojsoncallback=1&auth_token=72157711654648667-71434facb5881da3&api_sig=3179193bc53c9bb359c1baea295e2eea')
+          .get(' https://www.flickr.com/services/rest/?method=flickr.people.getPublicPhotos&api_key=87bc095b52c08a2a8aa3ce92e3e6fd70&user_id=183431130%40N03&format=json&nojsoncallback=1')
           .then(function(result) {
             picturefeed.setState({
                   items: result.data.photos.photo,
@@ -40,8 +40,6 @@ selectImage(selectedImage) {
     const {items, images, selectedImage} = this.state;
     return(
       <div className="media-gallery">
-                <h1 className="media-gallery__title">Flickr Gallery - photomodesami</h1>
-                <p>pictures from the games I enjoy playing. Click the image to view it full size</p><br/>
                 <div className="media-gallery-thumbnails">
                     {this.state.items.length ?
                         this.state.items.map((item, index) =>

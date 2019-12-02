@@ -12,6 +12,13 @@ code {
     monospace;
 }
 
+.media-header{
+  padding: 2rem 1rem 1rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: lightgray;
+}
+
 .media-gallery {
     padding: 2rem 1rem 1rem;
     max-width: 1000px;

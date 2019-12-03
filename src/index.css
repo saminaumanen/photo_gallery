@@ -13,10 +13,16 @@ code {
 }
 
 .media-header{
-  padding: 2rem 1rem 1rem;
+   padding: 2rem 1rem 1rem;
     max-width: 1000px;
     margin: 0 auto;
     background-color: lightgray;
+}
+
+.logo{
+  width: 10%;
+  height: 10%;
+  border-radius: 50%;
 }
 
 .media-gallery {

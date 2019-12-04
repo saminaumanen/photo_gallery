@@ -1,22 +1,15 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url("https://fonts.googleapis.com/css?family=Fjalla+One&display=swap");
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+body {
+  font-family: 'Fjalla One', sans-serif;
+  text-align: center;
 }
 
 .media-header{
    padding: 2rem 1rem 1rem;
     max-width: 1000px;
     margin: 0 auto;
-    background-color: lightgray;
+    background-color:#f0f0f5;
 }
 
 .logo{
@@ -29,7 +22,7 @@ code {
     padding: 2rem 1rem 1rem;
     max-width: 1000px;
     margin: 0 auto;
-    background-color: lightgray;
+    background-color: #f0f0f5;
 }
 
 .media-gallery-thumbnails {
@@ -42,10 +35,10 @@ code {
 .media-gallery-thumbnails__img {
     width: 60px;
     height: 60px;
-    border: lightgray 2px solid;
+    border: #f0f0f5 2px solid;
 }
 
 .media-gallery-main__img {
     width: 100%;
-    border: lightgray 2px solid;
+    border: #f0f0f5 2px solid;
 }
